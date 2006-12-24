@@ -8,16 +8,15 @@
 //
 
 using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace ÇPROJECTNAMEÈ
 {
-	public class ÇPROJECTNAMEÈ
+	class ÇPROJECTNAMEÈ
 	{
-		public static void Main()
+		static void Main(string[] args)
 		{
-			// Insert your code here
-			Console.WriteLine( "Goodbye, Forever!");
-			return;
 		}
 	}
 }

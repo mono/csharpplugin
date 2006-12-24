@@ -196,7 +196,7 @@
 				// Reference the specified assembly
 				Name = CS_REFERENCEDASSEMBLIES;
 				Type = stringlist;
-				DefaultValue = "";
+				DefaultValue = "System;System.Data;System.Xml";
 				CommandLineArgs = ( "-reference:${0}" );
 				Category = Building;
 				CommonOption = YES;
