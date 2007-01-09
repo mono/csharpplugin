@@ -12,6 +12,7 @@
 		0877FEBA0AC65C8F00130E78 /* com.mono.compilers.csharp.gmcs.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0877FEB80AC65C8F00130E78 /* com.mono.compilers.csharp.gmcs.strings */; };
 		08E5C8F30A8721D5005F2097 /* CSharp.pbpackspec in Resources */ = {isa = PBXBuildFile; fileRef = 08E5C8F20A8721D5005F2097 /* CSharp.pbpackspec */; };
 		08F50B090AC4D6C30061C4AD /* MonoOutputParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F50B080AC4D6C30061C4AD /* MonoOutputParser.m */; };
+		55B3FE3F0B5386EA00EC59F2 /* Cocoa# Exectuable.trgttmpl in Resources */ = {isa = PBXBuildFile; fileRef = 55B3FE3E0B5386EA00EC59F2 /* Cocoa# Exectuable.trgttmpl */; };
 		6D3A15940A27A04200FC64F6 /* CSharp.pbbsetspec in Resources */ = {isa = PBXBuildFile; fileRef = 6D3A15930A27A04200FC64F6 /* CSharp.pbbsetspec */; };
 		6D4794B10A068A81009E822B /* DevToolsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4794AE0A068A81009E822B /* DevToolsCore.framework */; };
 		6D4794B20A068A81009E822B /* DevToolsSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4794AF0A068A81009E822B /* DevToolsSupport.framework */; };
@@ -37,6 +38,7 @@
 		08F50B070AC4D6940061C4AD /* XCPOutputParsing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = XCPOutputParsing.h; path = Headers/XCPOutputParsing.h; sourceTree = "<group>"; };
 		08F50B080AC4D6C30061C4AD /* MonoOutputParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MonoOutputParser.m; path = Sources/MonoOutputParser.m; sourceTree = "<group>"; };
 		08F50B0A0AC4D6E30061C4AD /* MonoOutputParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonoOutputParser.h; path = Sources/MonoOutputParser.h; sourceTree = "<group>"; };
+		55B3FE3E0B5386EA00EC59F2 /* Cocoa# Exectuable.trgttmpl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "Cocoa# Exectuable.trgttmpl"; path = "Target Templates/C Sharp/Cocoa# Exectuable.trgttmpl"; sourceTree = "<group>"; };
 		6D3A15930A27A04200FC64F6 /* CSharp.pbbsetspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSharp.pbbsetspec; path = Resources/CSharp.pbbsetspec; sourceTree = "<group>"; };
 		6D4794AE0A068A81009E822B /* DevToolsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DevToolsCore.framework; path = /System/Library/PrivateFrameworks/DevToolsCore.framework; sourceTree = "<absolute>"; };
 		6D4794AF0A068A81009E822B /* DevToolsSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DevToolsSupport.framework; path = /System/Library/PrivateFrameworks/DevToolsSupport.framework; sourceTree = "<absolute>"; };
@@ -80,6 +82,7 @@
 		6D4794AC0A068A68009E822B /* Templates */ = {
 			isa = PBXGroup;
 			children = (
+				55B3FE3E0B5386EA00EC59F2 /* Cocoa# Exectuable.trgttmpl */,
 				6DD40F690A115E2200AB2BFA /* Executable.trgttmpl */,
 				08962A870A92FEA400808D99 /* Library.trgttmpl */,
 			);
@@ -215,6 +218,7 @@
 				080D3C400A9058BA001F43E1 /* CSharp.pbRTSspec in Resources */,
 				081268CF0A93089600F2573C /* Mono.xcspec in Resources */,
 				0877FEBA0AC65C8F00130E78 /* com.mono.compilers.csharp.gmcs.strings in Resources */,
+				55B3FE3F0B5386EA00EC59F2 /* Cocoa# Exectuable.trgttmpl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
